@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #627174;
+    padding: 20px;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+}
+.sub-menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9ecef;
+    padding: 20px;
+}
+.sub-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.BV{
+    background-color: #0d7785;
+    border: 1px solid #00050e; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 60px; /*bordes redondos*/
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.footer .section {
+    width: 30%;
+}
+.footer .section h3 {
+    color: #008000;
+}
+.footer .section a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.footer .section .social-media {
+    display: flex;
+    gap: 10px;
+}
+.footer .section .social-media img {
+    height: 20px;
+}
